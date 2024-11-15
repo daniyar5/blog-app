@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+html {
+    background-color: aliceblue;
+}
+
+.view {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.view-inner {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    background-color: white;
+    gap: 30px;
+    width: 100%
+}
+
+.new-btn, .edit-btn, .delete-btn {
+    padding: 12px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border:  none;
+}
+
+.new-btn{
+    background-color: green;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.blog h1{
+    font-size: 3rem;
+    margin: 0
+}
+
+hr {
+    margin: 50px 0;
+}
+
+
+.btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px
+}
+
+.edit-btn{
+    background-color: blue
+}
+
+
+.delete-btn{
+    font-size: medium;
+    background-color: red;
+    cursor: pointer;
+}
+
+.content {
+    font-size: 1.1rem;
+}
+
+.date, .author {
+    color: rgb(105, 104, 104);
+    font-size: medium;
+}
+
+
+
+.update {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+.modify {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    align-items: center;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 250px
+}
+
+
+.update-btn{
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
